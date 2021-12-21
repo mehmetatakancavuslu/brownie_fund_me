@@ -12,5 +12,7 @@ networks:
     verify: true
   development:
     verify: false
+  ganache-local:
+    verify: false
 wallets:
   from_key: ${PRIVATE_KEY}
